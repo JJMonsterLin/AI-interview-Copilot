@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data & models
+*.db
+*.sqlite
+
+# Docker volumes
+.docker/
+
+# OS
+.DS_Store
+*.swp
