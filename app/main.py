@@ -25,7 +25,6 @@ ASR_URL = os.getenv("ASR_URL", "http://localhost:5092")
 LLM_URL = os.getenv("LLM_URL", "http://localhost:11434")
 TTS_URL = os.getenv("TTS_URL", "http://localhost:8880")
 DB_PATH = os.getenv("DB_PATH", "/data/interview.db")
-MAX_TURNS = int(os.getenv("MAX_TURNS", "6"))
 
 # Available models: display name -> ollama model tag
 AVAILABLE_MODELS = {
